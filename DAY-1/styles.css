@@ -1,0 +1,194 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size:larger;
+}
+
+.checkout{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ua-logo {
+  height: 30px;
+  width: auto;
+}
+
+.checkout-text {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.account-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.login-btn {
+  padding: 8px 20px;
+  border: 1px solid #444;
+  background: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 30px;
+}
+
+.shipping, .right {
+  flex: 1;
+}
+
+
+.shipping-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.shipping-form input,
+.shipping-form select {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  top: 27px;
+}
+
+.info-text {
+  font-size: 13px;
+  color: #888;
+}
+
+
+.order-summary, .bag-summary {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.order-summary h3,
+.bag-summary h3 {
+  margin-top: 0;
+}
+
+.order-summary span {
+  float: right;
+}
+
+.promo-box {
+  margin-top: 15px;
+}
+
+.promo-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.promo-input input {
+  flex: 1;
+  padding: 8px;
+}
+
+.promo-input button {
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.badge-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  
+}
+
+.badge {
+  padding: 8px 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  background: white;
+}
+
+
+.product-item {
+  display: flex;
+  gap: 10px;
+}
+
+.arrival {
+  color: green;
+}
+
+.inside-shipping{
+  position: relative;
+  top:6px;
+  background-color: lightgray;
+}
+
+.Shipping Address{
+  position: relative;
+  top: -70px;
+  font-weight: bold;
+}
+.badge-troops{
+  color: red;
+}
+
+.form.shipping-form{
+  position: relative;
+  top: -56px;
+}
+
+input{
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+button.badge-troop{
+  background-color: lightcoral;
+  border-radius: 20px;
+  font-size: large;
+  width: 200px;
+  height: 40px;
+  
+}
+
+button.badge-responder{
+  background-color: lightblue;
+  border-radius:20px;
+  font-size: large;
+  width: 200px;
+  height: 40px;
+}
