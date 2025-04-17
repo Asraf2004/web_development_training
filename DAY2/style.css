@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .navbar {
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 60px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4d00;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+
+  a:hover{
+    color:#ff4d00 ;
+  }
+  
+  .auth-btns .signin,
+  .auth-btns .signup {
+    font-size: large;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .signin {
+    background-color: transparent;
+    border: 1px solid #ff4d00;
+    color: #ff4d00;
+  }
+  
+  .signup {
+    background-color: #ff4d00;
+    color: white;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    background: #fff;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+  }
+  
+  .hero-text h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #ff4d00;
+  }
+  
+  .highlight h2{
+    position: relative;
+    left: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .order-btn {
+    background-color: #fff;
+    color: black;
+    padding: 12px 20px;
+    border-style: solid;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border-color: lightgray;
+  }
+
+  .order-btn:hover{
+    background-color: #ff4d00;
+    color: white
+  }
+  
+  .hero-image img {
+    width: 350px;
+  }
+  
+  .popular-items {
+    padding: 60px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .popular-items h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+    right: 450px;
+    font-size: 55px;
+  }
+  
+  .items-grid {
+    margin-top: 40px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .item-card {
+    width: 250px;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  
+  .item-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .item-card h3 {
+    margin: 15px 0;
+  }
+  
+  .item-card button {
+    background-color: #ff4d00;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .my-tex{
+    color: gray;
+  }
