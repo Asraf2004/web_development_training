@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+       
+        <div class="left-section">
+            
+            <div class="content">
+                
+                
+            </div>
+        </div>
+
+        <div class="right-section">
+            <h1>Create a new account</h1>
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Last name" required>
+                </div>
+                <input type="email" placeholder="Email" required style="width: 96%;">
+                <div class="password-group">
+                    <input type="password" placeholder="Password" required>
+                    
+                </div>
+                <label for="birthday">Birthday</label>
+                <div class="birthday-group">
+                    <select>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        
+                    </select>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        
+                    </select>
+                    <select>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        
+                    </select>
+                </div>
+                <label>Gender</label>
+                <div class="gender-group">
+                    <label><input type="radio" name="gender" value="male" style="margin-top: 15px;"> Male</label>
+                    <label><input type="radio" name="gender" value="female" style="margin-top: 15px";"> Female</label>
+                    <label><input type="radio" name="gender" value="custom" style="margin-top: 15px;""> Custom</label>
+                </div>
+                <div class="terms">
+                    <input type="checkbox" required  style="
+                    position: relative;
+                    left: -263px;
+                ">
+                    <span  style="
+                    position: relative;
+                    right: -30px;
+                    color: black;
+                    width: 100%;
+                    bottom: 33px;
+                ">Creating an account means you're okay with our Terms of Service, Privacy Policy and our default Notification Settings </span>
+                </div>
+                <button type="submit" class="signup-btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

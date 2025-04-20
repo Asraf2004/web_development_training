@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">SPROUT</div>
+        <div class="search-bar">
+            <input type="search" placeholder="Search">
+            
+             
+        </div>
+        <nav class="nav">
+            <a href="#">Categories</a>
+            <a href="#">Bonus: 15%</a>
+            <a href="#">Julia ▼</a>
+            <a href="#">Cart: 6</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="checkout-form">
+            <h2>Checkout</h2>
+            <p>Personal information:</p>
+            <div class="form-group">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Phone">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <p>Delivery details:</p>
+            <div class="form-group">
+                <select>
+                    <option>Country / Region</option>
+                    <option>United Kingdom (UK)</option>
+                </select>
+                <select>
+                    <option>Town / City</option>
+                    <option>London</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Street">
+                <input type="text" placeholder="Postcode">
+            </div>
+            <div class="form-group">
+                <select>
+                    <option>Packaging type</option>
+                    <option>Without plastic</option>
+                </select>
+                <select>
+                    <option>Shipping option</option>
+                    <option>By courier</option>
+                </select>
+            </div>
+
+            <p>Payment:</p>
+            <div class="payment-options">
+                <label><input type="radio" name="payment"> Apple Pay</label>
+                <label><input type="radio" name="payment"> PayPal</label>
+                <label><input type="radio" name="payment"> Credit or debit card</label>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Card number">
+                <input type="text" placeholder="Expiration date">
+                <input type="text" placeholder="CVV code">
+            </div>
+        </section>
+
+        <section class="order-summary">
+            <h3>Your order:</h3>
+            <div class="order-details">
+                <p>Subtotal: <span>$60.30</span></p>
+                <p>Delivery: <span>$8.20</span></p>
+                <p>Total: <span>$68.50</span></p>
+                <button class="purchase-btn">Purchase</button>
+            </div>
+            <ul class="order-items">
+                <li>Jerky persimmon - 1 kg <span>$8.60</span></li>
+                <li>Macadamia in the shell - 2 kg <span>$28.00</span></li>
+                <li>Spiced nuts - 500g <span>$7.20</span></li>
+                <li>Banana - 4 kg <span>$5.70</span></li>
+                <li>Premium kiwifruit - 1 kg <span>$4.00</span></li>
+                <li>Orange - 2 kg <span>$6.80</span></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
