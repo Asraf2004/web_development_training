@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            <div class="profile">
+                <img src="profile.png" alt="Profile" class="profile-img">
+                <h2>Hello, Damian</h2>
+                <p>Manage your tasks</p>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="tasks">
+                <h3>Last added</h3>
+                <div class="task-item">
+                    <p>Football Cup training Drycling</p>
+                </div>
+                <h3>Tasks list</h3>
+                <div class="task-item">
+                    <p>UI/UX App Design</p>
+                    <span class="progress">79%</span>
+                </div>
+                <div class="task-item">
+                    <p>View candidates' resumes</p>
+                    <span class="progress">79%</span>
+                </div>
+                <button class="create-task-btn">Create task</button>
+            </div>
+        </div>
+
+        
+        <div class="card">
+            <h2>Create new task</h2>
+            <form>
+                <label>Main task name</label>
+                <input type="text" placeholder="UI/UX App Design">
+                <label>Due date</label>
+                <input type="datetime-local">
+                <label>Choose priority</label>
+                <div class="priority">
+                    <button class="high">High</button>
+                    <button class="medium">Medium</button>
+                    <button class="low">Low</button>
+                </div>
+                <label>Sub-task name</label>
+                <input type="text" placeholder="Prototyping">
+                <label>Description</label>
+                <textarea placeholder="Write a description..."></textarea>
+                <div class="form-actions">
+                    <button class="add-task">Add task</button>
+                    <button class="clear">Clear</button>
+                </div>
+            </form>
+        </div>
+
+        =
+        <div class="card">
+            <h2>Edit task</h2>
+            <form>
+                <label>Main task name</label>
+                <input type="text" placeholder="UI/UX App Design">
+                <label>Due date</label>
+                <input type="datetime-local">
+                <label>Choose priority</label>
+                <div class="priority">
+                    <button class="high">High</button>
+                    <button class="medium">Medium</button>
+                    <button class="low">Low</button>
+                </div>
+                <label>Sub-task name</label>
+                <input type="text" placeholder="Animate the logo">
+                <label>Description</label>
+                <textarea placeholder="Write a description..."></textarea>
+                <div class="form-actions">
+                    <button class="edit-task">Edit task</button>
+                    <button class="clear">Clear</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
