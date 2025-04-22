@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <img class="logo" src="image.png" alt="Search">
+    <div class="search-box">
+      <img class="icon" src="https://img.icons8.com/ios-filled/50/000000/search--v1.png" alt="Search">
+      <input type="text" placeholder="Search any car here">
+      <img class="icon" src="icons8-mic-48.png" alt="Mic">
+    </div>
+    <div class="icons">
+      <img class="icon" src="icons8-notification-96.png" alt="Notification">
+      <img class="icon" src="https://img.icons8.com/ios-filled/50/000000/settings.png" alt="Settings">
+      <div class="avatar">
+        <img class="avatar-img" src="icons8-avatar-96.png" alt="User">
+        <span>Asraf</span>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="filters">
+      <h3>TYPE</h3>
+      <ul>
+        <li><input type="checkbox"> Sport</li>
+        <li><input type="checkbox"> SUV</li>
+        <li><input type="checkbox"> MPV</li>
+        <li><input type="checkbox"> Sedan</li>
+        <li><input type="checkbox"> Coupe</li>
+        <li><input type="checkbox"> Hatchback</li>
+      </ul>
+      <h3>CAPACITY</h3>
+      <ul>
+        <li><input type="checkbox"> 2 Person</li>
+        <li><input type="checkbox"> 4 Person</li>
+        <li><input type="checkbox"> 6 Person</li>
+        <li><input type="checkbox"> 8 or More</li>
+      </ul>
+      <div class="price-filter">
+        <h3>PRICE</h3>
+        <input type="range" min="50" max="200" value="200">
+        <p>Max. $200.00</p>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="top-bar">
+        <div>Pickup and Drop Filters (mocked)</div>
+        <div><button class="rent-btn">Sort</button></div>
+      </div>
+
+      <div class="car-grid">
+        <div class="car-card">
+          <img src="nissan-gt-r-4k-wallpaper-3840x2160-18718.jpg" alt="Nissan GT-R" height="65%">
+          <div class="car-title">Nissan GT-R</div>
+          <div class="car-info">Sport | Manual | 2 People</div>
+          <div class="rent-price">$80.00 / day</div>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+        <div class="car-card">
+          <img src="rolls-royce-wraith-aurora-borealis-8256x5504-13728.jpg" alt="Rolls Royce">
+          <div class="car-title">Rolls-Royce</div>
+          <div class="car-info">Sedan | Manual | 4 People</div>
+          <div class="rent-price">$96.00 / day</div>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+        <div class="car-card">
+          <img src="nissan-gt-r-8000x5500-22791.jpeg" alt="Nissan GT-R">
+          <div class="car-title">Nissan GT-R</div>
+          <div class="car-info">Sport | Manual | 2 People</div>
+          <div class="rent-price">$80.00 / day</div>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
